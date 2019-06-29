@@ -15,6 +15,7 @@ class SQLighter():
         
         querry = """CREATE TABLE devices(
                         id int,
+                        name text, 
                         user_id int, 
                         cap text,
                         ip text
